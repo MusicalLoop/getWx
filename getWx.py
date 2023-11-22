@@ -47,7 +47,7 @@ if response.status_code == 200:
     output1 = f'The weather in {location} is {weather} with a temperature of {temp} C.\n\n'
     output2 = f'\tMin Temperature: {min_t} C\t Max Temperature: {max_t} C\n'
     output3 = f'\tPressure: {pressure}mb\tHumidity: {humidity}%\n'
-    output4 = f'\tWind: {wind}m/s\tGusting to {gust}m/s\tDirection: {direction}\n\n'
+    output4 = f'\tWind: {wind}m/s\t\tGusting to {gust}m/s\tDirection: {direction}\n\n'
     
     print(output1 + output2 + output3 + output4)
 else:
